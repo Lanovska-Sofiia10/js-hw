@@ -1,0 +1,10 @@
+.users-box {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 250px);
+    gap: 20px;
+}
+.user-box {
+    width: 45%;
+}
