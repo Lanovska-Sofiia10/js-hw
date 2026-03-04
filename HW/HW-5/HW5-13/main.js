@@ -1,4 +1,4 @@
-function exchange(sumUAH,currencyValues,exchangeCurrency){
+let exchange = (sumUAH,currencyValues,exchangeCurrency) =>{
     let sum = 0;
     for ( let currencys of currencyValues){
         if(currencys.currency === exchangeCurrency){
